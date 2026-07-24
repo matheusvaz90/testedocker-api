@@ -6,7 +6,7 @@ using TodoApi.Models;
 namespace TodoApi.Controllers;
 
 [ApiController]
-[Route("tasks")]
+[Route("api/tasks")]
 public class TasksController : ControllerBase
 {
     private readonly AppDbContext _db;
