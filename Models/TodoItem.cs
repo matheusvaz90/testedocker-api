@@ -7,4 +7,5 @@ public class TodoItem
     public string? Description { get; set; }
     public bool Done { get; set; }
     public string Urgency { get; set; } = "Baixa";
+    public int UserId { get; set; }
 }
